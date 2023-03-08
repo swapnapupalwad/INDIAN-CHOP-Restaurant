@@ -87,7 +87,7 @@ input[type=email] {
   padding: 0.67rem 0.8rem;
   margin-top: 0.6rem;
   line-height: 1.2;
-  color: #233646;
+  color:black;
   transition: border-color 150ms ease-in-out, box-shadow 150ms ease-in-out;
   border-radius: 5px;
   border: 1px solid #d9d9d9;
@@ -97,18 +97,22 @@ input[type=email] {
 }
 input[type=text]:focus,
 input[type=email]:focus {
-  border: 1px solid rgba(74, 144, 226, 0.7);
-  box-shadow: 0px 0px 0 3px rgba(74, 144, 226, 0.3);
+  border: 1px solid black;
+  box-shadow: 0px 0px 0 3px  #a96700;
 }
 
 ::placeholder {
-  color: #8b9aa6;
+  color:black;
   font-size: 15px;
 }
  .title{
     font-weight:bold;
-    font-size: 35px;
-    color: #a96700;
+    font-size: 2.7rem;
+    color: #444;
+    margin-bottom: 1rem;
+    margin-top: -1.2rem;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
 
 } 
 
@@ -125,7 +129,7 @@ input[type=submit] {
   border: 0;
   padding: 0.6rem 0;
   width: 138px;
-  border-radius: 5px;
+  border-radius: 50px;
   background: #a96700;;
   color: #fff;
   cursor: pointer;
@@ -217,7 +221,7 @@ input[type=submit]:active {
   list-style: none;
   border-radius: 4px;
   background-color: #fff;
-  box-shadow: 0 10px 16px #a96700;
+  box-shadow: 0 10px 10px #a96700;
 }
 .select-options li {
   margin: 0;
@@ -292,7 +296,7 @@ input[type=submit]:active {
   /* Class margin-auto margin-r-auto margin-l-auto */
   border-radius: 2px;
   /* mixin & class radius-circle radius-circle-btns */
-  box-shadow: 0 43px 100px #a96700;
+  box-shadow: 0 05px 05px #a96700;
 }
 @media (max-width: 992px) {
   .quick-reservation {
