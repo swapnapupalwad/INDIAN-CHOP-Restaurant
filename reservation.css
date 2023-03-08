@@ -20,7 +20,14 @@
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
+h2 {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0 0 -55px;
+    color: #a96700;
 
+}
 /* HR
 ----*/
 /* LABEL
@@ -43,7 +50,9 @@ h1, h2, h3, h4, h5, h6 {
 /* BODY
 -----*/
 body {
-  background: #f7fcff;
+  background: url("https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988534/header.jpg") fixed bottom;
+  background-size: cover;
+
   display: flex;
   /* mixin flex inline-flex*/
   flex-direction: column;
@@ -98,7 +107,7 @@ input[type=email]:focus {
 }
 
 label {
-  color: #8b9aa6;
+  color: #a96700;
   text-transform: uppercase;
   letter-spacing: 0.3px;
   font-size: 13px;
@@ -111,7 +120,7 @@ input[type=submit] {
   padding: 0.6rem 0;
   width: 138px;
   border-radius: 5px;
-  background: #4a90e2;
+  background: #a96700;;
   color: #fff;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
@@ -153,7 +162,7 @@ input[type=submit]:active {
 
 .select-styled {
   background-color: #fff;
-  color: #233646;
+  color:#a96700;
   border: 1px solid #d9d9d9;
   border-radius: 4px;
   padding: 0.7rem 0.8rem;
@@ -165,7 +174,7 @@ input[type=submit]:active {
   font-family: "Ionicons";
   font-size: 17px;
   display: inline-block;
-  color: #4a90e2;
+  color:#a96700;
   position: absolute;
   right: 14px;
   top: 50%;
@@ -173,16 +182,16 @@ input[type=submit]:active {
   transition: all 250ms ease-in;
 }
 .select-styled:hover {
-  background-color: #4a90e2;
+  background-color:#a96700;
   color: #fff;
 }
 .select-styled:hover::after {
   color: #fff;
 }
 .select-styled:active, .select-styled.active {
-  background-color: #4a90e2;
+  background-color:#a96700;
   color: #fff;
-  box-shadow: 0px 0px 0 3px rgba(74, 144, 226, 0.3);
+  box-shadow: 0px 0px 0 3px #a96700;
 }
 .select-styled:active::after, .select-styled.active::after {
   color: #fff;
@@ -202,16 +211,16 @@ input[type=submit]:active {
   list-style: none;
   border-radius: 4px;
   background-color: #fff;
-  box-shadow: 0 10px 16px rgba(68, 104, 194, 0.18);
+  box-shadow: 0 10px 16px #a96700;
 }
 .select-options li {
   margin: 0;
   padding: 8px 15px;
   transition: all 150ms ease-in;
-  color: #4a90e2;
+  color:#a96700;
 }
 .select-options li:hover {
-  background-color: #4a90e2;
+  background-color:#a96700;
   color: #fff;
 }
 .select-options li[rel=hide] {
@@ -244,7 +253,7 @@ input[type=submit]:active {
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  background: #4a90e2;
+  background: #a96700;
   transform: scale(0);
   transition: all 0.2s ease;
   opacity: 0.08;
@@ -277,7 +286,7 @@ input[type=submit]:active {
   /* Class margin-auto margin-r-auto margin-l-auto */
   border-radius: 2px;
   /* mixin & class radius-circle radius-circle-btns */
-  box-shadow: 0 43px 100px rgba(68, 104, 194, 0.18);
+  box-shadow: 0 43px 100px #a96700;
 }
 @media (max-width: 992px) {
   .quick-reservation {
@@ -309,7 +318,7 @@ input[type=submit]:active {
 }
 .quick-reservation .container .quick-reservation__header .title {
   margin: 0 auto;
-  color: #233646;
+  color:#a96700;
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 500;
@@ -451,7 +460,7 @@ input[type=submit]:active {
   margin-bottom: 2.3rem;
 }
 .quick-reservation .container .reservation-info .data .data__head {
-  color: #8b9aa6;
+  color:#a96700;
   text-transform: uppercase;
   letter-spacing: 0.3px;
   margin-bottom: 0.5rem;
@@ -460,7 +469,7 @@ input[type=submit]:active {
 }
 .quick-reservation .container .reservation-info .data .data__description {
   margin: 0;
-  color: #233646;
+  color:#a96700;
   line-height: 1.4;
   font-size: 18px;
   font-weight: 800;
