@@ -658,6 +658,9 @@ header .navigation-bar .underline {
 header .text {
     top: 24%;
 }
+.text {
+    margin-top:15%;
+}
 header .text h1 {
     margin-bottom: 0;
 }
