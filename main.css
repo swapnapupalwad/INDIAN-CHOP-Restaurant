@@ -570,7 +570,7 @@ header {
     height: calc(100vh - 22px);
     background-size: cover;
     background: url("https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988534/header.jpg") fixed bottom;
-    padding: 20px 50px;
+    padding: 20px 70px;
     /* background: url("https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988534/header.jpg") fixed bottom;
     background-size: cover;
     padding: 20px 70px;
@@ -658,9 +658,9 @@ header .navigation-bar .underline {
 header .text {
     top: 24%;
 }
-.text {
+/* .text {
     margin-top:15%;
-}
+} */
 header .text h1 {
     margin-bottom: 0;
 }
